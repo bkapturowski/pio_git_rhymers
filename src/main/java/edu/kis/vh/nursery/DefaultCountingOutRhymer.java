@@ -2,6 +2,10 @@ package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
 
+    public int getTotal() {
+        return total;
+    }
+
     public static final int ARRAY_SIZE = 12;
     public static final int TOTAL = -1;
     private final int[] numbers = new int[ARRAY_SIZE];
